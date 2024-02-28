@@ -9,12 +9,11 @@ body {
     height: 96vh;
     font-family: monospace;
     background-repeat: no-repeat;
-    color: black;
     font-size: 20px;
     background-image: "background.jpg";
 }
 
-header {
+nav {
     background-color: black;
     position: fixed;
     left: 0;
@@ -25,20 +24,18 @@ header {
     height: 2vw;
     display: flex;
     box-shadow: 0 0 6px 0 dimgrey;
+    
+    li {
+        display: inline;
+        margin: 1vh;
+
+        a {
+            text-decoration: none;
+            color: silver;
+        }
+    }
 }
 
-header * {
-    display: inline;
-}
-
-header li {
-    margin: 1vh;
-}
-
-header li a {
-    text-decoration: none;
-    color: silver;
-}
 
 h1 {
     text-align: center;
